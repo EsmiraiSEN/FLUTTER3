@@ -1,17 +1,27 @@
-# f1
+# Lab 3
 
-A new Flutter project.
+## Автор
+* **Имя:** Эсмира Исенбекова
+* **Группа:** ИСП-241
 
-## Getting Started
+## Стек и версии
+* **Framework:** Flutter 3.x.x
+* **Language:** Dart 3.x.x
+* **Platform:** Web (Edge)
+* **IDE:** Visual Studio Code (с плагинами Dart и Flutter)
 
-This project is a starting point for a Flutter application.
+## Результат работы приложения
+![Скриншот приложения](img/2026-10-17_01-06.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Запуск
+1. Клонировать репозиторий: `git clone <ссылка_на_ваш_репозиторий>`
+2. Перейти в папку проекта: `cd first_flutter_app`
+3. Выполнить команду: `flutter pub get`
+4. Запустить проект в браузере: `flutter run -d chrome`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+1. Познакомились с кроссплатформенным UI-фреймворком Flutter и языком программирования Dart.
+2. Изучили базовую древовидную концепцию построения интерфейса (Widget Tree).
+3. Научились использовать утилиты `Hot Reload` (для мгновенного обновления UI) и `Hot Restart` (для сброса состояния).
+4. Освоили базовые виджеты разметки и стилизации: `MaterialApp`, `Scaffold`, `Container`, `Center` и `Text`.
+5. Поработали с инструментами отладки интерфейса через `Flutter DevTools`.
